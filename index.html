@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Başka Başka Diyarlar - Burak ÜNAL</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/ana sayfa ikon.png">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <!-- Logo -->
+                <div class="logo">
+                    <img src="images/ana sayfa ikon.png" alt="Logo" class="logo-icon" width="40" height="40">
+                    <div class="logo-text">
+                        <span class="name-first">Burak</span>
+                        <span class="name-last">ÜNAL</span>
+                    </div>
+                </div>
+
+                <!-- Navigation Menu -->
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link active">Ana Sayfa</a></li>
+                    <li><a href="gezilerim.html" class="nav-link">Gezilerim</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="bisiklet.html" class="nav-link">Bisiklet Turlarım</a></li>
+                </ul>
+
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Hero Title -->
+            <h1 class="hero-title">Başka Başka Diyarlar...</h1>
+
+            <!-- Content Grid -->
+            <div class="content-grid">
+                <!-- Gezilerim Card -->
+                <div class="content-card">
+                    <div class="card-image">
+                        <img src="images/Ana sayfa 1.avif" alt="Gezilerim">
+                    </div>
+                    <a href="gezilerim.html" class="card-link">Gezilerim</a>
+                </div>
+
+                <!-- Blog Card -->
+                <div class="content-card">
+                    <div class="card-image card-image-placeholder">
+                        <img src="images/blog/default-blog.jpg" alt="Blog" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23e0e0e0%22 width=%22400%22 height=%22300%22/%3E%3Ctext fill=%22%23999%22 x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22sans-serif%22 font-size=%2220%22%3EBlog%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <a href="blog.html" class="card-link">Blog</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
